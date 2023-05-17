@@ -1,0 +1,40 @@
+Columns;Accuracy
+['Shallow Resistivity'];0.5400992934886385
+['Medium Deep Resistivity'];0.5200496467443193
+['Deep Resistivity'];0.5168035134619057
+['Bulk Density'];0.5421042581630705
+['Gamma Ray'];0.6541913309146458
+['Photo Electric Factor'];0.5059194195149895
+['Compressional waves sonic'];0.5884093946916173
+['Self Potential'];0.6555279740309338
+['Density Correction'];0.5341798739736491
+['Shallow Resistivity', 'Self Potential'];0.8396028260454459
+['Medium Deep Resistivity', 'Self Potential'];0.8526828336834066
+['Deep Resistivity', 'Self Potential'];0.8622302845140347
+['Bulk Density', 'Self Potential'];0.831201069314493
+['Gamma Ray', 'Self Potential'];0.8918273820889823
+['Self Potential', 'Photo Electric Factor'];0.8053274775634905
+['Compressional waves sonic', 'Self Potential'];0.854210425816307
+['Density Correction', 'Self Potential'];0.7753484819553179
+['Gamma Ray', 'Self Potential', 'Shallow Resistivity'];0.9219018522054612
+['Medium Deep Resistivity', 'Gamma Ray', 'Self Potential'];0.9253389345044873
+['Deep Resistivity', 'Gamma Ray', 'Self Potential'];0.9253389345044873
+['Gamma Ray', 'Bulk Density', 'Self Potential'];0.9255298835210999
+['Gamma Ray', 'Self Potential', 'Photo Electric Factor'];0.9180828718732098
+['Gamma Ray', 'Compressional waves sonic', 'Self Potential'];0.9202787855642544
+['Density Correction', 'Gamma Ray', 'Self Potential'];0.9137865189994272
+['Gamma Ray', 'Bulk Density', 'Self Potential', 'Shallow Resistivity'];0.9372732480427726
+['Medium Deep Resistivity', 'Gamma Ray', 'Bulk Density', 'Self Potential'];0.9390872637005919
+['Deep Resistivity', 'Gamma Ray', 'Bulk Density', 'Self Potential'];0.9415696009165553
+['Gamma Ray', 'Bulk Density', 'Self Potential', 'Photo Electric Factor'];0.9382279931258354
+['Gamma Ray', 'Bulk Density', 'Compressional waves sonic', 'Self Potential'];0.9359366049264847
+['Density Correction', 'Gamma Ray', 'Bulk Density', 'Self Potential'];0.9358411304181784
+['Shallow Resistivity', 'Deep Resistivity', 'Self Potential', 'Gamma Ray', 'Bulk Density'];0.9434790910826809
+['Deep Resistivity', 'Medium Deep Resistivity', 'Self Potential', 'Gamma Ray', 'Bulk Density'];0.9437655146075997
+['Deep Resistivity', 'Self Potential', 'Gamma Ray', 'Bulk Density', 'Photo Electric Factor'];0.9457704792820317
+['Compressional waves sonic', 'Deep Resistivity', 'Self Potential', 'Gamma Ray', 'Bulk Density'];0.9430017185411496
+['Deep Resistivity', 'Self Potential', 'Gamma Ray', 'Density Correction', 'Bulk Density'];0.9440519381325186
+['Gamma Ray', 'Shallow Resistivity', 'Deep Resistivity', 'Bulk Density', 'Self Potential', 'Photo Electric Factor'];0.9468206988734008
+['Gamma Ray', 'Medium Deep Resistivity', 'Deep Resistivity', 'Bulk Density', 'Self Potential', 'Photo Electric Factor'];0.9457704792820317
+['Gamma Ray', 'Compressional waves sonic', 'Deep Resistivity', 'Bulk Density', 'Self Potential', 'Photo Electric Factor'];0.9483482910063014
+['Gamma Ray', 'Deep Resistivity', 'Density Correction', 'Bulk Density', 'Self Potential', 'Photo Electric Factor'];0.9479663929730762
