@@ -74,7 +74,7 @@ The dataset is take from [Force 2020 Drive](https://drive.google.com/drive/folde
 
 2. How are the sensor readings correlated?
     a. Calculate the correlation
-    b. Draw Correlation heat map
+    b. Draw a Correlation heat map
 
     **Purpose of the question**: understand how redundant is the data
 
@@ -85,12 +85,12 @@ The dataset is take from [Force 2020 Drive](https://drive.google.com/drive/folde
     b. calculate the mean and standard deviation of each depth interval
     c. plot the mean and standard deviation of each depth interval
 
-    **Purpose of the question**: find out if depth is a affecting the other columns (is depth a feature)
+    **Purpose of the question**: find out if the depth is affecting the other columns (is it a feature?)
 
     <img src="img/Q3.png" alt="Q3" width="1000" ></img>
 
 4. The means of gamma rays and neutron porosity are significantly different in shale and sandstone in the same well
-    a. Use 2 sample t-test to test significance of the hypothesis
+    a. Use 2 sample t-test to test the significance of the hypothesis
     b. run the test on another dataset
 
     **Purpose of the question**: find out if neutron porosity and gamma rays are the main features of classifying the lithology as believed
@@ -105,7 +105,7 @@ The dataset is take from [Force 2020 Drive](https://drive.google.com/drive/folde
     a. Use clustering algorithms to identify clusters of similar lithology based on wireline well logs data.
     b. Compare the clusters to the labeled data to determine if the clusters correspond to different lithology.
 
-    **Purpose of the question**: if the data labels not accurate, can we have a better classification method
+    **Purpose of the question**: if the data labels are not accurate, can we have a better classification method
 
     <img src="img/Q6.png" alt="Q6" width="1000" ></img>
 
@@ -136,7 +136,7 @@ The dataset is take from [Force 2020 Drive](https://drive.google.com/drive/folde
 
 10. Based on a prediction, what are the sweet spots of the existence of crude oil?
     a. Predict the lithology of the sensor readings
-    b. pick the sandstone lithology with cross over in the permeability and porosity graphs and high resistivity (higher than 10 ohm.m)
+    b. pick the sandstone lithology with cross-over in the permeability and porosity graphs and high resistivity (higher than 10 ohm.m)
     b. visualize the sweet spots on a graph
 
     **Purpose of the question**: interpret the analysis results to the well log plot
