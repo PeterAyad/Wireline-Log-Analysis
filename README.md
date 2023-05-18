@@ -1,3 +1,9 @@
+<style>
+td, th {
+   border: none!important;
+}
+</style>
+
 # Wireline Log Analysis
 
 <img src="img/Wireline.gif" alt="Wireline Logging Tool" width="1000" ></img>
@@ -11,7 +17,7 @@ This repository contains a wireline log analysis project developed to analyze an
 
 The dataset is take from [Force 2020 Drive](https://drive.google.com/drive/folders/0B7brcf-eGK8CRUhfRW9rSG91bW8)
 
-<table borders="0">
+<table>
 <tr><td>
 
 | Column Name | Column Description                               |
