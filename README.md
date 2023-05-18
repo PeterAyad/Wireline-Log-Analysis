@@ -1,6 +1,18 @@
 # Wireline Log Analysis
 
-## Data Columns
+<img src="img/Wireline.png" alt="Wireline Logging Tool" width="1000" ></img>
+
+
+## Introduction
+
+This repository contains a wireline log analysis project developed to analyze and interpret wireline logging data from oil wells. Wireline logging is a well logging technique used in the oil and gas industry to obtain detailed measurements of physical properties within a wellbore. This project aims to automate the analysis process and provide valuable insights into reservoir characterization.
+
+## Dataset
+
+The dataset is take from [Force 2020 Drive](https://drive.google.com/drive/folders/0B7brcf-eGK8CRUhfRW9rSG91bW8)
+
+<table>
+<tr><td>
 
 | Column Name | Column Description                               |
 |-------------|--------------------------------------------------|
@@ -33,9 +45,9 @@
 | THOR        | Thorium Concentration                            |
 | URAN        | Uranium Concentration                            |
 
-## Label Meaning
+</td><td>
 
-| Code  | Meaning         |
+| Label | Meaning         |
 | ----- | --------------- |
 | 30000 | Sandstone       |
 | 65030 | Sandstone/Shale |
@@ -49,6 +61,7 @@
 | 99000 | Tuff            |
 | 90000 | Coal            |
 | 93000 | Basement        |
+</td></tr> </table>
 
 ## Questions and Proposed work plan
 
@@ -57,11 +70,15 @@
 
     **Purpose of the question**: understand the nature of the data
 
+    <img src="img/Q1.png" alt="Q1" width="1000" ></img>
+
 2. How are the sensor readings correlated?
     a. Calculate the correlation
     b. Draw Correlation heat map
 
     **Purpose of the question**: understand how redundant is the data
+
+    <img src="img/Q2.png" alt="Q2" width="1000" ></img>
 
 3. How do well logs vary with depth?
     a. divide the well log data into different depth intervals
@@ -69,6 +86,8 @@
     c. plot the mean and standard deviation of each depth interval
 
     **Purpose of the question**: find out if depth is a affecting the other columns (is depth a feature)
+
+    <img src="img/Q3.png" alt="Q3" width="1000" ></img>
 
 4. The means of gamma rays and neutron porosity are significantly different in shale and sandstone in the same well
     a. Use 2 sample t-test to test significance of the hypothesis
@@ -88,11 +107,15 @@
 
     **Purpose of the question**: if the data labels not accurate, can we have a better classification method
 
+    <img src="img/Q6.png" alt="Q6" width="1000" ></img>
+
 7. What are the most important features or well-log measurements contributing to lithology prediction?
     a. Use feature selection algorithms to identify the most important features for lithology prediction.
     b. Compare the accuracy loss to the cost reduction
 
     **Purpose of the question**: can we reduce the readings acquired from the well to reduce the cost
+
+    <img src="img/Q7.png" alt="Q7" width="1000" ></img>
 
 8. “Geologists say that geology is not random, however, petroleum engineers say that it is random based on their experience” Given several well logs for the same reservoir (spatial domain), can we infer that there is no relation between the well location and its quality?
     a. Select several wells in the same reservoir
@@ -101,11 +124,15 @@
 
     **Purpose of the question**: test the truth of the hypothesis
 
+    <img src="img/Q8.png" alt="Q8" width="1000" ></img>
+
 9. Does the noise and anomalies in sensor readings provide any information?
     a. Find a model to detect anomalies in the data
     b. Analyze the anomalies to find any information
 
     **Purpose of the question**: find the specific characteristics of the oil spots
+
+    <img src="img/Q9.png" alt="Q9" width="1000" ></img>
 
 10. Based on a prediction, what are the sweet spots of the existence of crude oil?
     a. Predict the lithology of the sensor readings
@@ -113,3 +140,6 @@
     b. visualize the sweet spots on a graph
 
     **Purpose of the question**: interpret the analysis results to the well log plot
+
+    <img src="img/PDFOutput.png" alt="PDFOutput" width="1000" ></img>
+
