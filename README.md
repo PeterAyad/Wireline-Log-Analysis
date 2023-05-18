@@ -11,7 +11,7 @@ This repository contains a wireline log analysis project developed to analyze an
 
 The dataset is take from [Force 2020 Drive](https://drive.google.com/drive/folders/0B7brcf-eGK8CRUhfRW9rSG91bW8)
 
-<table>
+<table borders="0">
 <tr><td>
 
 | Column Name | Column Description                               |
