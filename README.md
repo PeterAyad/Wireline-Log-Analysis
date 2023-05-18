@@ -1,6 +1,6 @@
 # Wireline Log Analysis
 
-<img src="img/Wireline.png" alt="Wireline Logging Tool" width="1000" ></img>
+<img src="img/Wireline.gif" alt="Wireline Logging Tool" width="1000" ></img>
 
 
 ## Introduction
