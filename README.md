@@ -1,9 +1,3 @@
-<style>
-td, th {
-   border: none!important;
-}
-</style>
-
 # Wireline Log Analysis
 
 <img src="img/Wireline.gif" alt="Wireline Logging Tool" width="1000" ></img>
